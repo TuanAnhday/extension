@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <a href="http://localhost:3000/all" target={"_blank"}>
-        <p>SAVE PASSWORK</p>
+        <p>SAVE PASSWORK </p>
       </a>
       <Login />
       {/* <div>
