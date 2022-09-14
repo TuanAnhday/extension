@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.login-form{
+  background-color: #ccc;
+  border-radius: 16px;
+  margin: 20px;
+  padding: 2rem;
+  width: 366px;
+}
+label{
+  width: 100px;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+    color: red;
+}
+a:hover{
+  color: #ccc;
+}

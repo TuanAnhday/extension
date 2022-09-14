@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Login from "./Login";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Items from "./Items";
+// import { useCreateContext } from "./Dbcontext";
 
 function App() {
+  // const { is } = useCreateContext();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <a href="http://localhost:3000/all" target={"_blank"}>
+        <p>SAVE PASSWORK</p>
+      </a>
+      <Login />
+      {/* <div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="all" element={<Items />} />
+          </Routes>
+        </BrowserRouter>
+      </div> */}
     </div>
   );
 }
